@@ -9,6 +9,12 @@ public class Titik {
         counterTitik++;
     }
 
+    Titik(float a, float o) {
+        this.absis = a;
+        this.ordinat = o;
+        counterTitik++;
+    }
+
     void setAbsis(float a) {
         absis = a;
     }
